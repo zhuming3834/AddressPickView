@@ -15,6 +15,18 @@
 		105B93EC1C71D5320050F92C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B93EA1C71D5320050F92C /* LaunchScreen.storyboard */; };
 		105B93F71C71D5320050F92C /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B93F61C71D5320050F92C /* _____Tests.m */; };
 		105B94021C71D5320050F92C /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B94011C71D5320050F92C /* _____UITests.m */; };
+		105B94331C71D8130050F92C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 105B94321C71D8130050F92C /* libsqlite3.tbd */; };
+		10B5B3FE1C72B64900A80815 /* AreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3E81C72B64900A80815 /* AreaModel.m */; };
+		10B5B3FF1C72B64900A80815 /* china_citys_name.db in Resources */ = {isa = PBXBuildFile; fileRef = 10B5B3E91C72B64900A80815 /* china_citys_name.db */; };
+		10B5B4001C72B64900A80815 /* ChinaArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3EB1C72B64900A80815 /* ChinaArea.m */; };
+		10B5B4011C72B64900A80815 /* ChinaPlckerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3ED1C72B64900A80815 /* ChinaPlckerView.m */; };
+		10B5B4021C72B64900A80815 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3EF1C72B64900A80815 /* CityModel.m */; };
+		10B5B4031C72B64900A80815 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3F21C72B64900A80815 /* FMDatabase.m */; };
+		10B5B4041C72B64900A80815 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3F41C72B64900A80815 /* FMDatabaseAdditions.m */; };
+		10B5B4051C72B64900A80815 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3F61C72B64900A80815 /* FMDatabasePool.m */; };
+		10B5B4061C72B64900A80815 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3F81C72B64900A80815 /* FMDatabaseQueue.m */; };
+		10B5B4071C72B64900A80815 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3FB1C72B64900A80815 /* FMResultSet.m */; };
+		10B5B4081C72B64900A80815 /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5B3FD1C72B64900A80815 /* ProvinceModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,29 @@
 		105B93FD1C71D5320050F92C /* 地址选择器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "地址选择器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		105B94011C71D5320050F92C /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		105B94031C71D5320050F92C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105B94321C71D8130050F92C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		10B5B3E71C72B64900A80815 /* AreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaModel.h; sourceTree = "<group>"; };
+		10B5B3E81C72B64900A80815 /* AreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaModel.m; sourceTree = "<group>"; };
+		10B5B3E91C72B64900A80815 /* china_citys_name.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = china_citys_name.db; sourceTree = "<group>"; };
+		10B5B3EA1C72B64900A80815 /* ChinaArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaArea.h; sourceTree = "<group>"; };
+		10B5B3EB1C72B64900A80815 /* ChinaArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaArea.m; sourceTree = "<group>"; };
+		10B5B3EC1C72B64900A80815 /* ChinaPlckerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaPlckerView.h; sourceTree = "<group>"; };
+		10B5B3ED1C72B64900A80815 /* ChinaPlckerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaPlckerView.m; sourceTree = "<group>"; };
+		10B5B3EE1C72B64900A80815 /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		10B5B3EF1C72B64900A80815 /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		10B5B3F11C72B64900A80815 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		10B5B3F21C72B64900A80815 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		10B5B3F31C72B64900A80815 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		10B5B3F41C72B64900A80815 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		10B5B3F51C72B64900A80815 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		10B5B3F61C72B64900A80815 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		10B5B3F71C72B64900A80815 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		10B5B3F81C72B64900A80815 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		10B5B3F91C72B64900A80815 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		10B5B3FA1C72B64900A80815 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		10B5B3FB1C72B64900A80815 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		10B5B3FC1C72B64900A80815 /* ProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
+		10B5B3FD1C72B64900A80815 /* ProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105B94331C71D8130050F92C /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +117,7 @@
 		105B93D01C71D5310050F92C = {
 			isa = PBXGroup;
 			children = (
+				105B94321C71D8130050F92C /* libsqlite3.tbd */,
 				105B93DB1C71D5320050F92C /* 地址选择器 */,
 				105B93F51C71D5320050F92C /* 地址选择器Tests */,
 				105B94001C71D5320050F92C /* 地址选择器UITests */,
@@ -105,6 +142,7 @@
 				105B93E01C71D5320050F92C /* AppDelegate.m */,
 				105B93E21C71D5320050F92C /* ViewController.h */,
 				105B93E31C71D5320050F92C /* ViewController.m */,
+				10B5B3E61C72B64900A80815 /* ChinaPlckerView */,
 				105B93E51C71D5320050F92C /* Main.storyboard */,
 				105B93E81C71D5320050F92C /* Assets.xcassets */,
 				105B93EA1C71D5320050F92C /* LaunchScreen.storyboard */,
@@ -138,6 +176,43 @@
 				105B94031C71D5320050F92C /* Info.plist */,
 			);
 			path = "地址选择器UITests";
+			sourceTree = "<group>";
+		};
+		10B5B3E61C72B64900A80815 /* ChinaPlckerView */ = {
+			isa = PBXGroup;
+			children = (
+				10B5B3EC1C72B64900A80815 /* ChinaPlckerView.h */,
+				10B5B3ED1C72B64900A80815 /* ChinaPlckerView.m */,
+				10B5B3EA1C72B64900A80815 /* ChinaArea.h */,
+				10B5B3EB1C72B64900A80815 /* ChinaArea.m */,
+				10B5B3E71C72B64900A80815 /* AreaModel.h */,
+				10B5B3E81C72B64900A80815 /* AreaModel.m */,
+				10B5B3EE1C72B64900A80815 /* CityModel.h */,
+				10B5B3EF1C72B64900A80815 /* CityModel.m */,
+				10B5B3FC1C72B64900A80815 /* ProvinceModel.h */,
+				10B5B3FD1C72B64900A80815 /* ProvinceModel.m */,
+				10B5B3E91C72B64900A80815 /* china_citys_name.db */,
+				10B5B3F01C72B64900A80815 /* fmdb */,
+			);
+			path = ChinaPlckerView;
+			sourceTree = "<group>";
+		};
+		10B5B3F01C72B64900A80815 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				10B5B3F11C72B64900A80815 /* FMDatabase.h */,
+				10B5B3F21C72B64900A80815 /* FMDatabase.m */,
+				10B5B3F31C72B64900A80815 /* FMDatabaseAdditions.h */,
+				10B5B3F41C72B64900A80815 /* FMDatabaseAdditions.m */,
+				10B5B3F51C72B64900A80815 /* FMDatabasePool.h */,
+				10B5B3F61C72B64900A80815 /* FMDatabasePool.m */,
+				10B5B3F71C72B64900A80815 /* FMDatabaseQueue.h */,
+				10B5B3F81C72B64900A80815 /* FMDatabaseQueue.m */,
+				10B5B3F91C72B64900A80815 /* FMDB.h */,
+				10B5B3FA1C72B64900A80815 /* FMResultSet.h */,
+				10B5B3FB1C72B64900A80815 /* FMResultSet.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +282,6 @@
 				TargetAttributes = {
 					105B93D81C71D5320050F92C = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = A6CJBL77R4;
 					};
 					105B93F11C71D5320050F92C = {
 						CreatedOnToolsVersion = 7.2;
@@ -249,6 +323,7 @@
 				105B93EC1C71D5320050F92C /* LaunchScreen.storyboard in Resources */,
 				105B93E91C71D5320050F92C /* Assets.xcassets in Resources */,
 				105B93E71C71D5320050F92C /* Main.storyboard in Resources */,
+				10B5B3FF1C72B64900A80815 /* china_citys_name.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B5B3FE1C72B64900A80815 /* AreaModel.m in Sources */,
+				10B5B4031C72B64900A80815 /* FMDatabase.m in Sources */,
 				105B93E41C71D5320050F92C /* ViewController.m in Sources */,
 				105B93E11C71D5320050F92C /* AppDelegate.m in Sources */,
+				10B5B4071C72B64900A80815 /* FMResultSet.m in Sources */,
+				10B5B4081C72B64900A80815 /* ProvinceModel.m in Sources */,
+				10B5B4021C72B64900A80815 /* CityModel.m in Sources */,
+				10B5B4001C72B64900A80815 /* ChinaArea.m in Sources */,
+				10B5B4011C72B64900A80815 /* ChinaPlckerView.m in Sources */,
+				10B5B4041C72B64900A80815 /* FMDatabaseAdditions.m in Sources */,
 				105B93DE1C71D5320050F92C /* main.m in Sources */,
+				10B5B4061C72B64900A80815 /* FMDatabaseQueue.m in Sources */,
+				10B5B4051C72B64900A80815 /* FMDatabasePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,9 +451,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,8 +490,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -416,10 +503,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "地址选择器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhuming.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -427,10 +516,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "地址选择器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhuming.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -501,6 +592,7 @@
 				105B94081C71D5320050F92C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		105B94091C71D5320050F92C /* Build configuration list for PBXNativeTarget "地址选择器Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +601,7 @@
 				105B940B1C71D5320050F92C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		105B940C1C71D5320050F92C /* Build configuration list for PBXNativeTarget "地址选择器UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +610,7 @@
 				105B940E1C71D5320050F92C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
